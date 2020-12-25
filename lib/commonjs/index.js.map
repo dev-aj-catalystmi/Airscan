@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.tsx"],"names":["Airscan","NativeModules"],"mappings":";;;;;;;AAAA;;AAMA,MAAM;AAAEA,EAAAA;AAAF,IAAcC,0BAApB;eAEeD,O","sourcesContent":["import { NativeModules } from 'react-native';\n\ntype AirscanType = {\n  multiply(a: number, b: number): Promise<number>;\n};\n\nconst { Airscan } = NativeModules;\n\nexport default Airscan as AirscanType;\n"]}

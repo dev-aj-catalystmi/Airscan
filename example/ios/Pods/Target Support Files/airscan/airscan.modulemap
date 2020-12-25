@@ -1,0 +1,6 @@
+module airscan {
+  umbrella header "airscan-umbrella.h"
+
+  export *
+  module * { export * }
+}

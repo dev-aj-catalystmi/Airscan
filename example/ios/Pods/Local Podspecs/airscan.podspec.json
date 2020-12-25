@@ -1,0 +1,21 @@
+{
+  "name": "airscan",
+  "version": "0.1.0",
+  "summary": "Vision framework based lib to scan documents also support OCR",
+  "homepage": "https://github.com/dev-aj-catalystmi/Airscan#readme",
+  "license": "MIT",
+  "authors": "dev-aj-catalystmi <akshay.j@catalystmedia.io> (https://www.npmjs.com/~dev_aj_bcm)",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/dev-aj-catalystmi/Airscan.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

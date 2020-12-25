@@ -1,0 +1,6 @@
+module Pods_AirscanExample {
+  umbrella header "Pods-AirscanExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

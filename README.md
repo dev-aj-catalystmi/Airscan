@@ -15,7 +15,7 @@ import Airscan from "airscan";
 
 // ...
 
-const result = await Airscan.multiply(3, 7);
+<Button title="Click here" onPress={() => Airscan.startScanning()} />
 ```
 
 ## Contributing

@@ -1,6 +1,6 @@
 {
-  "name": "airscan",
-  "version": "0.1.0",
+  "name": "airscan-example",
+  "version": "1.0.0",
   "description": "Vision framework based lib to scan documents also support OCR",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

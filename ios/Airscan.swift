@@ -10,7 +10,8 @@ class Airscan: NSObject {
     return true
   }
   
-  @objc(startScanning)
+    @available(iOS 13.0, *)
+    @objc(startScanning)
   func startScanning() {
     DispatchQueue.main.async {
       
@@ -43,7 +44,8 @@ class Airscan: NSObject {
 }
 
 extension Airscan: VNDocumentCameraViewControllerDelegate {
-  func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFinishWith scan: VNDocumentCameraScan) {
+    @available(iOS 13.0, *)
+    func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFinishWith scan: VNDocumentCameraScan) {
     guard scan.pageCount >= 1 else {
       return
     }
@@ -64,7 +66,8 @@ extension Airscan: VNDocumentCameraViewControllerDelegate {
     }
   }
   
-  func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFailWithError error: Error) {
+    @available(iOS 13.0, *)
+    func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFailWithError error: Error) {
     // handle error here
     
     DispatchQueue.main.async {
@@ -74,7 +77,8 @@ extension Airscan: VNDocumentCameraViewControllerDelegate {
     
   }
   
-  func documentCameraViewControllerDidCancel(_ controller: VNDocumentCameraViewController) {
+    @available(iOS 13.0, *)
+    func documentCameraViewControllerDidCancel(_ controller: VNDocumentCameraViewController) {
     
     DispatchQueue.main.async {
       controller.dismiss(animated: true)

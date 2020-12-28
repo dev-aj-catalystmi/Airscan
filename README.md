@@ -1,17 +1,21 @@
-# airscan
+# airscan-example
 
 Vision framework based lib to scan documents also support OCR
 
 ## Installation
 
 ```sh
-npm install airscan
+npm install airscan-example
+
+cd ios
+
+pod install
 ```
 
 ## Usage
 
 ```js
-import Airscan from "airscan";
+import Airscan from "airscan-example";
 
 // ...
 
